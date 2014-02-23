@@ -1,0 +1,30 @@
+{
+  "name": "hof-release",
+  "version": "0.0.9",
+  "description": "help to release components",
+  "main": "release.js",
+  "scripts": {
+    "start": "node ./release.js"
+  },
+  "keywords": [
+    "release",
+    "hof"
+  ],
+  "bin": {
+    "hof-release": "./release.js"
+  },
+  "author": {
+    "name": "Anton Savchenko"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "async": "~0.2.10"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "hof-release@0.0.7",
+  "dist": {
+    "shasum": "7785dc1e8417df2525f7619dcc2b002f57899a6d"
+  },
+  "_from": "hof-release@",
+  "_resolved": "https://registry.npmjs.org/hof-release/-/hof-release-0.0.7.tgz"
+}

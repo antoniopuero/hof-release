@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ C:\Users\a.savchenko\AppData\Roaming\npm-cache\0ee6c175-.lock
+10 verbose tar pack [ 'C:\\Users\\AE505~1.SAV\\AppData\\Local\\Temp\\npm-1916-ukJakCm9\\1393148419976-0.8639191389083862\\tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+12 verbose folder ./
+13 silly lockFile 04cb2bca-tar tar://./
+14 verbose lock tar://./ C:\Users\a.savchenko\AppData\Roaming\npm-cache\04cb2bca-tar.lock
+15 silly lockFile 8c1e34fa-19976-0-8639191389083862-tmp-tgz tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+16 verbose lock tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz C:\Users\a.savchenko\AppData\Roaming\npm-cache\8c1e34fa-19976-0-8639191389083862-tmp-tgz.lock
+17 silly lockFile 04cb2bca-tar tar://./
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 8c1e34fa-19976-0-8639191389083862-tmp-tgz tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+20 silly lockFile 8c1e34fa-19976-0-8639191389083862-tmp-tgz tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+21 verbose tar unpack C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+22 silly lockFile 1152f467-19976-0-8639191389083862-package tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+23 verbose lock tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package C:\Users\a.savchenko\AppData\Roaming\npm-cache\1152f467-19976-0-8639191389083862-package.lock
+24 silly lockFile 8c1e34fa-19976-0-8639191389083862-tmp-tgz tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+25 verbose lock tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz C:\Users\a.savchenko\AppData\Roaming\npm-cache\8c1e34fa-19976-0-8639191389083862-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+29 silly gunzTarPerm extractEntry release.js
+30 silly gunzTarPerm modified mode [ 'release.js', 438, 420 ]
+31 silly lockFile 1152f467-19976-0-8639191389083862-package tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+32 silly lockFile 1152f467-19976-0-8639191389083862-package tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+33 silly lockFile 8c1e34fa-19976-0-8639191389083862-tmp-tgz tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+34 silly lockFile 8c1e34fa-19976-0-8639191389083862-tmp-tgz tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\tmp.tgz
+35 verbose tar pack [ 'C:\\Users\\a.savchenko\\AppData\\Roaming\\npm-cache\\hof-release\\0.0.8\\package.tgz',
+35 verbose tar pack   'C:\\Users\\AE505~1.SAV\\AppData\\Local\\Temp\\npm-1916-ukJakCm9\\1393148419976-0.8639191389083862\\package' ]
+36 verbose tarball C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+37 verbose folder C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+38 silly lockFile 1152f467-19976-0-8639191389083862-package tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+39 verbose lock tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package C:\Users\a.savchenko\AppData\Roaming\npm-cache\1152f467-19976-0-8639191389083862-package.lock
+40 silly lockFile 8976e4ab-he-hof-release-0-0-8-package-tgz tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+41 verbose lock tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz C:\Users\a.savchenko\AppData\Roaming\npm-cache\8976e4ab-he-hof-release-0-0-8-package-tgz.lock
+42 silly lockFile 1152f467-19976-0-8639191389083862-package tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+43 silly lockFile 1152f467-19976-0-8639191389083862-package tar://C:\Users\AE505~1.SAV\AppData\Local\Temp\npm-1916-ukJakCm9\1393148419976-0.8639191389083862\package
+44 silly lockFile 8976e4ab-he-hof-release-0-0-8-package-tgz tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+45 silly lockFile 8976e4ab-he-hof-release-0-0-8-package-tgz tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+46 silly lockFile 893e985f--cache-hof-release-0-0-8-package C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package
+47 verbose lock C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package C:\Users\a.savchenko\AppData\Roaming\npm-cache\893e985f--cache-hof-release-0-0-8-package.lock
+48 silly lockFile 893e985f--cache-hof-release-0-0-8-package C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package
+49 silly lockFile 893e985f--cache-hof-release-0-0-8-package C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package
+50 verbose tar unpack C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+51 silly lockFile ac64f6c9--cache-hof-release-0-0-8-package tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package
+52 verbose lock tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package C:\Users\a.savchenko\AppData\Roaming\npm-cache\ac64f6c9--cache-hof-release-0-0-8-package.lock
+53 silly lockFile 8976e4ab-he-hof-release-0-0-8-package-tgz tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+54 verbose lock tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz C:\Users\a.savchenko\AppData\Roaming\npm-cache\8976e4ab-he-hof-release-0-0-8-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+58 silly gunzTarPerm extractEntry release.js
+59 silly gunzTarPerm modified mode [ 'release.js', 438, 420 ]
+60 silly lockFile ac64f6c9--cache-hof-release-0-0-8-package tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package
+61 silly lockFile ac64f6c9--cache-hof-release-0-0-8-package tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package
+62 silly lockFile 8976e4ab-he-hof-release-0-0-8-package-tgz tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+63 silly lockFile 8976e4ab-he-hof-release-0-0-8-package-tgz tar://C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+64 verbose chmod C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz 644
+65 silly chown skipping for windows C:\Users\a.savchenko\AppData\Roaming\npm-cache\hof-release\0.0.8\package.tgz
+66 silly lockFile 0ee6c175- ./
+67 silly lockFile 0ee6c175- ./
+68 silly publish { name: 'hof-release',
+68 silly publish   version: '0.0.8',
+68 silly publish   description: 'help to release components',
+68 silly publish   main: 'release.js',
+68 silly publish   scripts: { start: 'node ./release.js' },
+68 silly publish   keywords: [ 'release', 'hof' ],
+68 silly publish   bin: { 'hof-release': './release.js' },
+68 silly publish   author: { name: 'Anton Savchenko' },
+68 silly publish   license: 'BSD-2-Clause',
+68 silly publish   dependencies: { async: '~0.2.10' },
+68 silly publish   readme: 'ERROR: No README data found!',
+68 silly publish   _id: 'hof-release@0.0.8',
+68 silly publish   dist: { shasum: '4438d388730e5a710edb58bc229b0f2557042d57' },
+68 silly publish   _from: './',
+68 silly publish   _resolved: 'https://registry.npmjs.org/hof-release/-/hof-release-0.0.7.tgz' }
+69 verbose url raw hof-release
+70 verbose url resolving [ 'https://registry.npmjs.org/', './hof-release' ]
+71 verbose url resolved https://registry.npmjs.org/hof-release
+72 info trying registry request attempt 1 at 11:40:20
+73 http PUT https://registry.npmjs.org/hof-release
+74 http 403 https://registry.npmjs.org/hof-release
+75 info trying registry request attempt 1 at 11:40:21
+76 http PUT https://registry.npmjs.org/hof-release
+77 http 201 https://registry.npmjs.org/hof-release
+78 verbose url raw hof-release
+79 verbose url resolving [ 'https://registry.npmjs.org/', './hof-release' ]
+80 verbose url resolved https://registry.npmjs.org/hof-release
+81 info trying registry request attempt 1 at 11:40:22
+82 http GET https://registry.npmjs.org/hof-release
+83 http 200 https://registry.npmjs.org/hof-release
+84 error publish fail Cannot publish over existing version.
+84 error publish fail Update the 'version' field in package.json and try again.
+84 error publish fail
+84 error publish fail If the previous version was published in error, see:
+84 error publish fail     npm help unpublish
+84 error publish fail
+84 error publish fail To automatically increment version numbers, see:
+84 error publish fail     npm help version
+85 error System Windows_NT 6.1.7601
+86 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "./"
+87 error cwd d:\work\additional_scripts\node_modules\hof-release
+88 error node -v v0.10.21
+89 error npm -v 1.3.11
+90 error code EPUBLISHCONFLICT
+91 verbose exit [ 1, true ]
